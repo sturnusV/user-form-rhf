@@ -43,36 +43,6 @@ Clear visual feedback including:
 Loading indicators
 Success confirmation
 Field-specific error messages
-💻 Installation
-To get this project up and running locally, follow these steps:
-
-Clone the repository:
-
-Bash
-
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Install dependencies:
-
-Bash
-
-npm install
-# or
-yarn install
-Configure environment variables:
-Create a .env file in the root directory and add your GoRest API token:
-
-Bash
-
-echo "VITE_GOREST_API_TOKEN=your_api_token_here" > .env
-Start the development server:
-
-Bash
-
-npm run dev
-# or
-yarn dev
-The application will be available at http://localhost:5173.
 
 🏗️ Architecture Considerations
 State Management
